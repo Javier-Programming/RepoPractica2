@@ -28,6 +28,10 @@ public class Profesor {
     public String saludo(){
         return "hola" + nombre;
     }
+    public int sueldo(){
+        return 2500000;
+
+    }
 
     // agregar toString
     @Override
